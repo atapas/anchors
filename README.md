@@ -4,8 +4,12 @@ An application can have multiple anchors. Each anchor can have multiple attribut
 
 `Anchors` is a demo application that shows how to use anchors. It provides a simple interface to try out different anchor attributes. The extensive documentation for anchors can be found from the demo application.
 
+<p align="center">
+  <img src="./images/og.png" alt="screen" />
+</p>  
+
 ## Demo Application
-Please access the demo application from the following link: [Anchors](anchors.vercel.app)
+> Please access the demo application from the following link: [Anchors](anchors.vercel.app)
 
 ## Documentation
 This section contains the documentation for the attributes with sample source code.
