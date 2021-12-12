@@ -15,7 +15,7 @@
 <body>
 	<main>
 		<header class="main-header">
-			<h1>Anchor Tags</h1>
+			<h1>Anchors</h1>
 		</header>
 		<nav>
 			<ul>
@@ -51,21 +51,39 @@
 							<ul class="demo-list">
 								<h3>The <cite>rel</cite> attribute</h3>
 								<p>It specifies the relationship between the current document and the linked document.</p>
-								<li><a href="https://example.com" rel="noopener noreferrer">Open in new tab/window</a></li>
+								<li><a rel="nofollow" href="http://www.example.com/">No Follow</a></li>
 							</ul>
 							<ul class="demo-list">
 								<h3>Open <cite>email</cite> program</h3>
+								<p>Open your default email program using the mailto value set to the href property.</p>
 								<li><a href="mailto:me@example.com">Send email</a>
 								</li>
 							</ul>
 							<ul class="demo-list">
-								<h3>The <cite>target</cite> and <cite>rel</cite> attribute</h3>
-								<li><a href="https://example.com" target="_blank" rel="noopener noreferrer">New Tab</a>
+								<h3> The <cite>download</cite> attribute</h3>
+								<p>
+									The download attribute specifies the filename of the downloaded file.
+									The download attribute is supported in all modern browsers.
+								</p>
+								<li>
+									<a href="./images/rajni_image_tmjxoo.jpg" download>Download a File</a>
 								</li>
 							</ul>
 							<ul class="demo-list">
 								<h3>The <cite>ping</cite> attribute</h3>
+								<p>
+									The ping attribute specifies a space seprated list of URLs to ping when the link is clicked.
+								</p>
 								<li><a href="https://example.com" ping="https://example.com/tracking">With a Ping</a></li>
+							</ul>
+							<ul class="demo-list">
+								<h3>The <cite>target</cite> and <cite>rel</cite> attribute</h3>
+								<p>
+									The target attribute specifies where to open the document.
+									The rel attribute specifies the relationship between the current document and the linked document.
+								</p>
+								<li><a href="https://example.com" target="_blank" rel="noopener noreferrer">New Tab</a>
+								</li>
 							</ul>
 							<ul class="demo-list">
 								<h3>The <cite>target</cite> attributes</h3>
