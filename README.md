@@ -20,6 +20,16 @@ The `href` attribute is used to specify the link target.
 ```html
 <a href="https://example.com">Click me</a>
 ```
+
+```html
+<a href="#news">Go to the News section</a>
+
+<div id="news">
+  <h2>News</h2>
+  <p>Here is some news</p>
+</div>
+```
+
 Please find the possible values for the `href` attribute in the [w3c.org](https://www.w3schools.com/tags/att_a_href.asp) specification.
 
 ### The `title` attribute
