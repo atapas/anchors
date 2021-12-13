@@ -17,10 +17,12 @@ This section contains the documentation for the attributes with sample source co
 ### The `href` attribute
 The `href` attribute is used to specify the link target.
 
+- Link to a page to another website:
 ```html
 <a href="https://example.com">Click me</a>
 ```
 
+- Link to a page to a section of the same website:
 ```html
 <a href="#news">Go to the News section</a>
 
@@ -28,6 +30,16 @@ The `href` attribute is used to specify the link target.
   <h2>News</h2>
   <p>Here is some news</p>
 </div>
+```
+
+- Link to open the default phone app
+```html
+<a href="tel:+914123456765">Call +914123456765</a>
+```
+
+- Link to open the default email app
+```html
+<a href="mailto:me@example.com">Send an email to me</a>
 ```
 
 Please find the possible values for the `href` attribute in the [w3c.org](https://www.w3schools.com/tags/att_a_href.asp) specification.
