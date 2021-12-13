@@ -42,6 +42,11 @@ The `href` attribute is used to specify the link target.
 <a href="mailto:me@example.com">Send an email to me</a>
 ```
 
+- You can link to a script and execute it with a single click.
+```html
+<a href="javascript:alert('Hello World!')">Click me</a>
+```
+
 Please find the possible values for the `href` attribute in the [w3c.org](https://www.w3schools.com/tags/att_a_href.asp) specification.
 
 ### The `title` attribute
