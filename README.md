@@ -11,6 +11,8 @@ An application can have multiple anchors. Each anchor can have multiple attribut
 ## Demo Application
 > Please access the demo application from the following link: [Anchors](anchors.vercel.app)
 
+Please give the repo a ⭐ if you liked the work. It motivates me.
+
 ## Documentation
 This section contains the documentation for the attributes with sample source code.
 
