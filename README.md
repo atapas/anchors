@@ -13,6 +13,11 @@ An application can have multiple anchors. Each anchor can have multiple attribut
 
 Please give the repo a ⭐ if you liked the work. It motivates me.
 
+### Many Thanks to all the `Stargazers` who has supported this project with stars(⭐)
+
+[![Stargazers repo roster for @atapas/anchors](https://reporoster.com/stars/atapas/anchors)](https://github.com/atapas/anchors/stargazers)
+
+
 ## Documentation
 This section contains the documentation for the attributes with sample source code.
 
